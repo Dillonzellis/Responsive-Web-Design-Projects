@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Surveystyles.css">
+    <title >
+        Form Project
+    </title>
+</head>
+<body>
+    <header>
+        <div id="title"> 
+            <h1>Form</h1>
+        </div>
+        <div id="description">
+            <p>Short explanation of form</p>
+        </div>
+    </header>
+        <form id="survey-from">
+            <label for="name" id=name>Enter name</label>
+                <input type="text" name="name" placeholder="John Doe" id="name-label" required>
+                <br>
+            <label for="email" id="email">Enter Email</label>
+                <input type="email" name="email" id="email-label" placeholder="something@email,com"required>
+                <br>
+            <label for="number" id="number">Enter Number</label>
+                <input type="number" name="number" min="1" max="99"id="number-label"placeholder="1-99">
+                <br>
+            <select name="Test" id="dropdown">
+                <option value="1">
+                    1
+                </option>
+                <option value="2">
+                    2
+                </option>
+                <option value="3">
+                     3
+                </option>
+            </select>
+            <br>
+            <input type="radio" name="group" value="1">
+            <input type="radio" name="group" value="2">
+            <input type="radio" name="group" value="3">
+            <br>
+            <input type="checkbox" name="options" value="a">A
+            <input type="checkbox" name="options" value="b">B
+            <input type="checkbox" name="options" value="c">C
+            <input type="checkbox" name="options" value="d">D
+            <br>
+            <textarea>Additional Comments</textarea>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    <footer>
+    </footer>
+</body>
+</html>
