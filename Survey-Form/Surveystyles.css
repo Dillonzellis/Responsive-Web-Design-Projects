@@ -3,6 +3,14 @@
     color: whitesmoke;
 }
 
-#number-label{
-    color:white;
+.header, form{
+    text-align: center;
+}
+
+.in-form{
+    margin:13px;
+}
+.textarea-input{
+    margin-top:60px;
+    margin-bottom: 20px;
 }
