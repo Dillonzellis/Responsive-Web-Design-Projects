@@ -1,16 +1,69 @@
-html{
-    background-color: midnightblue;
-    color: olivedrab;
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+*{
+    box-sizing: border-box;
+    background-color:rgb(11, 112, 42);
+    font-family: 'Indie Flower', cursive;
 }
 
-header{
+html, body {
+    margin: 0;
+    padding: 0;
     
 }
 
-p{
-    
+#header{
+    padding: .0;
+    margin: 0;
+    font-size:3em;
+    text-align: center;
 }
 
-.img-div{
-    width: 100%;
+#header h1{
+    padding: 0;
+    margin: 0;
+}
+
+#title{
+    padding: .0;
+    font-size:2em;
+    text-align: center;
+}
+
+#img-div{
+  margin:1.2em;
+    
+}
+#image{
+    width: 80%;
+    height: auto;
+    max-width: 500px;
+    max-height: 375px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-caption{
+    
+    padding: .0;
+    margin: .5em;
+    text-align: center;
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+#tribute-info{
+    text-align:center;
+    padding: .0;
+    margin: .5em;
+    font-size: 1.75em;
+}
+
+#tribute-link{
+    padding: .0;
+    margin-top: 5%;
+    font-size: 1.5em;
+    text-align: center;
 }
