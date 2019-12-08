@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+
+
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="port-style.css">
     <title>
         Portfolio
     </title>
@@ -8,25 +12,92 @@
 <body>
 
 <nav id="navbar">
-    <a href="">Link to different section of page</a>
-    <a href="">Link to different section of page</a>
-    <a href="">Link to different section of page</a>
+    <a href="#welcome-section">Welcome</a>
+    <a href="#projects">Projects</a>
+    <a href="#profile-link">Links</a>
 </nav>
-    <section id="welcome-section">
-        <h1>Welcome Header</h1>
-    </section>
 
-    <section id="projects">
+<section id="welcome-section">
+    <div class="welcome-wrapper">
+    <div class="welcome-header">
+        <h1>Web Developer</h1>
+    </div>
+
+    <div class="welcome-info">
+        <h3>Dillon Ellis</h3>
+            <p>Information about Bio</p>
+    </div>
+</div>
+</section>
+
+<section class="prj-container" id="projects">
+    <h2>Project Container</h2>
+    <div class="prj-tile-holder">
+        <div class="row">
         <div class="project-tile">
-            <a href="">Link to other project</a>
+            <a href="https://codepen.io/dillonzellis/pen/WNbvmBV" target="__blank">Link to other project</a>
+            <div class="embed">
+                    <p class="codepen" data-height="265" data-theme-id="default" data-default-tab="html,result" data-user="dillonzellis" data-slug-hash="WNbvmBV" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Product Page Project">
+                            <span>See the Pen <a href="https://codepen.io/dillonzellis/pen/WNbvmBV">
+                            Product Page Project</a> by Dillonzellis (<a href="https://codepen.io/dillonzellis">@dillonzellis</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+            </div>
         </div>
 
-        <div id="profile-link">
-            MyGithub.com
+        <div class="project-tile">
+                <a href="https://codepen.io/dillonzellis/pen/WNbvmBV" target="__blank">Link to other project</a>
+                <div class="embed">
+                        <p class="codepen" data-height="265" data-theme-id="default" data-default-tab="html,result" data-user="dillonzellis" data-slug-hash="WNbvmBV" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Product Page Project">
+                                <span>See the Pen <a href="https://codepen.io/dillonzellis/pen/WNbvmBV">
+                                Product Page Project</a> by Dillonzellis (<a href="https://codepen.io/dillonzellis">@dillonzellis</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                </div>
         </div>
-    </section>
+    </div>
 
-    <footer>
+    <div class="row">
+        <div class="project-tile">
+                <a href="https://codepen.io/dillonzellis/pen/WNbvmBV" target="__blank">Link to other project</a>
+                <div class="embed">
+                        <p class="codepen" data-height="265" data-theme-id="default" data-default-tab="html,result" data-user="dillonzellis" data-slug-hash="WNbvmBV" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Product Page Project">
+                                <span>See the Pen <a href="https://codepen.io/dillonzellis/pen/WNbvmBV">
+                                Product Page Project</a> by Dillonzellis (<a href="https://codepen.io/dillonzellis">@dillonzellis</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                </div>
+        </div>
 
-    </footer>
+        <div class="project-tile">
+                <a href="https://codepen.io/dillonzellis/pen/WNbvmBV" target="__blank">Link to other project</a>
+                <div class="embed">
+                        <p class="codepen" data-height="265" data-theme-id="default" data-default-tab="html,result" data-user="dillonzellis" data-slug-hash="WNbvmBV" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Product Page Project">
+                                <span>See the Pen <a href="https://codepen.io/dillonzellis/pen/WNbvmBV">
+                                Product Page Project</a> by Dillonzellis (<a href="https://codepen.io/dillonzellis">@dillonzellis</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                </div>
+        </div>
+    </div>
+</div>
+
+        
+    <div class="p-link" id="profile-link">
+            <a href="https://github.com/" target="__blank">MyGithub.com</a>
+    </div>
+
+</section>
+
+
+    
+    <div class="footer">
+        Copyright Information 2019
+    </div>
+
+
 </body>

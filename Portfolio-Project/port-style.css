@@ -1,5 +1,133 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+*{
+  box-sizing: border-box;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  padding:0;
+  margin:0;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+nav{
+  background-color: rgb(74, 115, 134);
+  display: flex;
+  font-size: 1.1em;
+  align-items: center;
+  height: 3rem;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  border: 1px solid black;
+  }
+
+a{
+  text-decoration: none;
+}
+  nav a{
+   
+    text-decoration: none;
+  }
+.welcome-wrapper{
+  background-color: rgb(74, 115, 134);
+  width: 20rem;
+  height: 10rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+  .welcome-header{
+    border: 1px solid green;
+  }
+
+  #welcome-section{
+    background-image: url('ssbm.jpg');
+    /* background-size: 800px 900px;  */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 20rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    font-size: 1.5em;
+    border: 1px solid rgb(74, 115, 134);;
+  }
+
+  .prj-container{
+    /* width:80%; */
+    display: flex;
+
+    text-align: center;
+    flex-direction:column;
+    height: 40rem;
+    
+    /* border: 1px solid white; */
+  }
+  .prj-container h2{
+padding-top: 1.5rem;
+
+  }
+
+  .prj-tile-holder{
+    display:flex;
+    justify-content: space-around;
+    /* border: 5px solid red; */
+    padding:5rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+  }
+
+  .project-tile{
+    border: 1px solid white;
+    height: 15rem;
+    width:15rem;
+    margin:5rem;
+    margin-top:1rem;
+  }
+
+  .p-link{
+    font-size: 2rem;
+    /* width:; */
+    border: 2px solid white;
+
+  }
+
+  .footer{
+  height: 10rem;
+  /* border: 1px solid green; */
+  margin-top:5rem;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top:3rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .welcome-wrapper {
+      width:100%;
+    }
+    .prj-tile-holder{
+      display:flex;
+      justify-content: space-around;
+      flex-direction: column;
+      padding:5rem;
+      padding-top:1rem;
+      padding-bottom:1rem;
+      width: 100%;
+    }
+    .footer{
+      margin-top: 50rem;
     }
   }
